@@ -1,0 +1,27 @@
+.Post {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  .Post__header {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .Post__info {
+    margin-left: 10px;
+    h2 {
+      font-size: 15px;
+     }
+    p {
+      font-size: 12px;
+      color: gray;
+    }
+  }
+  .Post__body {
+    overflow-wrap: anywhere;
+  }
+  .Post__button {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
